@@ -9,6 +9,7 @@ This project demonstrates how to set up and use local registries for Kubernetes 
 - **Hauler**: A tool for managing container images and Helm charts, allowing for the creation of a local store and registry for Kubernetes resources.
 - **k3d**: A utility to run K3s (a lightweight Kubernetes distribution) in Docker, making it simple to spin up a Kubernetes cluster on your local machine.
 - **Arkade**: A CLI for downloading and installing Kubernetes CLI tools and applications, used here to install k3d.
+- **Just**: A command runner that allows you to save and run project-specific commands defined in a `justfile`.
 
 ### Workflow
 

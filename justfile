@@ -14,12 +14,12 @@ add-example-image-and-chart:
 
 # Install Arkade
 install-arkade:
-    @install_arkade:
-        if ! which arkade > /dev/null; then
-            curl -sLS https://dl.get-arkade.dev | sudo sh
-        else
-            echo "arkade is already installed"
-        fi
+  #!/usr/bin/env bash
+  if ! which arkade > /dev/null; then
+    curl -sLS https://dl.get-arkade.dev | sudo sh
+  else
+      echo "arkade is already installed"
+  fi
 
 # Install k3d using Arkade
 install-k3d:
